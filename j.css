@@ -1,0 +1,339 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Montserrat",sans-serif;
+
+    
+}
+.header{
+    width:100%;
+    height: 100vh;
+    background-position: center;   
+    background-color: azure;      
+    
+}
+     
+.navbar{
+
+display: flex;
+justify-content: space-between;
+padding: 10px 10%;
+font-size: 20px;    
+
+}
+.menu{
+display: flex;
+text-align: center;
+gap:30px;
+}
+.menu  li{
+list-style:none;
+margin:3px; 
+
+
+}
+.menu  li a{
+text-decoration: none;
+font-size: 13px;
+text-align: center;
+align-items: center;
+padding: 6px;
+}
+
+.main{
+
+text-align: center;
+margin-top: 50px;
+
+
+}
+.main h2{
+font-size: 45px;
+
+}
+button{
+background-color: rgb(197, 11, 132);
+border-radius: 4px;
+font-size: 15px;
+border: 10px;
+}
+#nani{
+margin-top:50px;
+border-radius: 10px;
+width: 60%;
+height: 80%;
+position:relative;
+
+
+
+}
+svg,path{
+margin-top: -150px;
+}
+form{
+
+margin-top: 30px;
+}
+input{
+width: 500px;
+height: 60px;
+border: 1.5px solid black;
+align-items: center;
+border-right:0;
+border-radius: 2px;
+}
+
+.one{
+margin-top: 30px;
+margin-bottom: 10px;
+text-align: center;
+padding: 10px 10%;
+}
+.rate{
+width: 200px;
+height: 10px;
+display:inline;
+margin-top: 20px;
+border-radius: 80px;
+
+
+}
+#r1{
+border-radius: 20px;
+}
+#r2{
+border-radius: 20px;
+}
+#r3{
+border-radius: 20px;
+}
+#r4{
+border-radius: 20px;
+}
+#r1:hover{
+transform: scale(1.05);
+}
+#r2:hover{
+transform: scale(1.05);
+}
+#r3:hover{
+transform: scale(1.05);
+}
+#r4:hover{
+transform: scale(1.05);
+}
+.raani{ 
+    padding: 10px 10px;
+    margin-top: 90px;
+
+    text-align: left;
+    margin: 150px;
+}
+.total{
+width: 100%;
+height: 500px;
+display: flex;
+margin: 100px;
+display: flex;
+
+}
+.total  img{
+margin-right:80px;
+margin-top: 80px;
+height: 400px;
+width: 500px;
+background-color: greenyellow;
+}
+.raani p{
+font-size: 20px;
+margin-top: 10px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.raani button{
+margin-top: 20px;
+color: greenyellow;
+width: 120px;
+height: 30px;
+background-color: rgb(72, 72, 178);
+}
+.hydera{
+width:100%;
+    height: 100vh;
+    background-position: center;         
+
+}
+#t1{
+border-radius: 20px;
+}
+.find h1{
+font-size: 40px;
+color:black;
+text-align: center;
+margin-bottom: 20px;
+
+
+}
+#jyothi{
+background-position: center;
+align-items: center;
+justify-content: center;
+padding: 10px 10%;
+text-align: center;
+
+
+}
+
+form button{
+width: 80px;
+height: 65px;
+}
+
+.action{
+margin-top: 30px;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.action button{
+width: 60px;
+height: 65px;
+margin-right: 100px;
+background-color: pink;
+
+}
+input{
+width: 500px;
+height: 60px;
+border: 1.5px solid black;
+align-items: center;
+border-right:0;
+border-radius: 2px;
+}
+
+.id1 h1{
+text-align: center;
+margin-top: 40px;
+
+}
+.anu{
+    margin-left: 80px;
+    background-color: rgb(229, 229, 243);
+    padding-top: 30px;
+ }
+.id1{
+
+display:inline;
+width: 90px;   
+
+}
+#img3{
+text-align: center;
+}
+.priya{
+margin-left: 50px;
+display:inline-block;
+justify-content: space-between;
+
+}
+h1{
+text-align: center;
+
+}
+.content{
+ margin-right:100px;
+margin-top: 80px;
+height: 750px;
+width:100%;
+background-color: rgb(170, 8, 143);
+display: flex;
+border-radius: 30px;
+
+}
+.add1{
+
+padding: 8px 10%;
+ margin-top: 100px; 
+ text-align: left;
+ margin: 150px;
+
+
+}
+.add1 button{
+width: 90px;
+height: 40px;
+background-color: rgb(230, 124, 26);
+}
+#im2{
+background-color: rgb(33, 180, 143);
+width: 80%;
+height:500px;
+display: flex;
+margin: 100px;
+margin-top: -50px;
+border-radius: 20px;
+
+}
+span{
+font-size: 50px;
+margin-top:-80px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-info,
+.footer-links,
+.footer-contact {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.footer-info h5,
+.footer-links h5,
+.footer-contact h5 {
+    margin-top: 0;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
